@@ -1,51 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<title>Todo</title>
-	<meta charset="UTF-8">
-</head>
-<body>
-<div id="wrapper">
-	<header>
-		<h1>...</h1>
-		<h2>???</h2>
-	</header>
-	
-	<main>
-		<div id="middle">
-		<p>Hello World</p>
-		</div>
-	</main>
-	
-	<footer>
-		<div class="column"> 
-			<h4>ZC. Elsewhere</h4> 
-			<ul> 
-				<li><a href="https://www.youtube.com/ZenithCorps">Youtube</a></li> 
-				<li><a href="https://github.com/Zenith08">Github</a></li> 
-				<li><a href="https://minecraft.curseforge.com/projects/model-trains-mod">Curseforge</a></li> 
-			</ul> 
-		</div> 
-
-		<div class="column"> 
-			<h4>Other Things</h4> 
-			<ul> 
-				<li><a href="mailto:zenith.o.eight@gmail.com">Email Us</a></li>
-				<li>If you have any questions see the contact options.</li>
-				<li></li>
-			</ul> 
-		</div> 
-
-		<div class="column"> 
-			<h4>Liscencing</h4>
-			<ul> 
-				<li>Assets created and published by ZC</li>
-				<li>Authors: The Richardson Brothers</li>
-				<li>Please cite us to use our content.</li>
-			</ul> 
-		</div>
-	</footer>
-</div>
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | CyberJungle</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL Build.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">CyberJungle</div>
+      </div>
+    </div>
+  </body>
 </html>
