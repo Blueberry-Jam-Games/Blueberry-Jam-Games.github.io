@@ -1,9 +1,9 @@
 const cacheName = "Zenith Corps.-FTC-Controller-1.0";
 const contentToCache = [
-    "Build/ControllerWebGL.loader.js",
-    "Build/ControllerWebGL.framework.js",
-    "Build/ControllerWebGL.data",
-    "Build/ControllerWebGL.wasm",
+    "Build/FTC-WebGL.loader.js",
+    "Build/FTC-WebGL.framework.js",
+    "Build/FTC-WebGL.data",
+    "Build/FTC-WebGL.wasm",
     "TemplateData/style.css"
 
 ];
