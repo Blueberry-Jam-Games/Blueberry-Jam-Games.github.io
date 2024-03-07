@@ -1,9 +1,9 @@
 const cacheName = "Zenith Corps.-FTC-Controller-1.0";
 const contentToCache = [
-    "Build/FTC-WebGL.loader.js",
-    "Build/FTC-WebGL.framework.js",
-    "Build/FTC-WebGL.data",
-    "Build/FTC-WebGL.wasm",
+    "Build/Blueberry-Jam-Games.github.io.loader.js",
+    "Build/Blueberry-Jam-Games.github.io.framework.js",
+    "Build/Blueberry-Jam-Games.github.io.data",
+    "Build/Blueberry-Jam-Games.github.io.wasm",
     "TemplateData/style.css"
 
 ];
